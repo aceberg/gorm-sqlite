@@ -6,7 +6,8 @@ Fork with `"modernc.org/sqlite"` (works with `CGO_ENABLED=0`)
 
 ```go
 import (
-  "github.com/aceberg/gorm-sqlite"
+  sqlite "github.com/aceberg/gorm-sqlite"
+  
   "gorm.io/gorm"
 )
 
